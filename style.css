@@ -4346,7 +4346,6 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url(https://preview.redd.it/the-battle-of-the-end-has-begun-4k-v0-bgyf1nz2dg691.png?auto=webp&s=38d851ddbf8f77d35008af57f648c8fa13545932);
   background-size: cover;
 }
 
@@ -4363,8 +4362,8 @@ figcaption {
 
 .hero.inner {
   height: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 170px;
+  padding-bottom: 120px;
 }
 
 .hero.intro {
@@ -4899,8 +4898,8 @@ figcaption {
   display: -ms-grid;
   display: grid;
   grid-auto-columns: 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 16px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
@@ -4951,7 +4950,7 @@ figcaption {
   justify-content: center;
   background-color: #111;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .bottom-part._2 {
@@ -5029,7 +5028,7 @@ figcaption {
 
 .category-text.category-link:hover {
   color: #fff;
-  text-decoration: underline;
+  color: #ffffffe0!important;
 }
 
 .max-w-center {
@@ -5642,7 +5641,6 @@ figcaption {
 }
 
 .text-line {
-  color: #ff4c4c;
   text-shadow: -1px 0 0 #fff, 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff;
 }
 
