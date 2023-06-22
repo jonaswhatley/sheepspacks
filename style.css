@@ -4346,7 +4346,8 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #3d2e56;
+  background-image: url(https://preview.redd.it/the-battle-of-the-end-has-begun-4k-v0-bgyf1nz2dg691.png?auto=webp&s=38d851ddbf8f77d35008af57f648c8fa13545932);
+  background-size: cover;
 }
 
 .hero._2 {
@@ -4457,7 +4458,6 @@ figcaption {
 
 .hero-display._2 {
   color: #ffffff;
-  text-shadow: 2px 0 0 #000, 0 2px 0 #000, -2px 0 0 #000, 0 -2px 0 #000;
 }
 
 .hero-display.with-breaking {
@@ -4548,19 +4548,18 @@ figcaption {
   background-color: #000;
 }
 
-.work-grid {display: grid;grid-template-columns: repeat(3, 1fr);grid-template-rows: repeat(1, 1fr);grid-column-gap: 30px;grid-row-gap: 5px;}
+.work-grid {display: grid;grid-template-columns: repeat(3, 1fr);grid-template-rows: repeat(1, 1fr);grid-column-gap: 15px;grid-row-gap: 5px;}
 
 .item-grid {
   display: -ms-grid;
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 0px;
-  grid-row-gap: 50px;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  grid-row-gap: 30px;
+  grid-row-gap: 15px;
 }
 
 .project-circle {
@@ -4625,8 +4624,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
-  border-radius: 11px;
-  box-shadow: 0px 0px 20px #000;
+  border-radius: 8px;
 }
 
 .plus-icon {
