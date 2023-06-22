@@ -4363,8 +4363,8 @@ figcaption {
 
 .hero.inner {
   height: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .hero.intro {
@@ -4899,8 +4899,8 @@ figcaption {
   display: -ms-grid;
   display: grid;
   grid-auto-columns: 1fr;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
+  grid-column-gap: 30px;
+  grid-row-gap: 16px;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
@@ -4951,7 +4951,7 @@ figcaption {
   justify-content: center;
   background-color: #111;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .bottom-part._2 {
@@ -5028,7 +5028,8 @@ figcaption {
 }
 
 .category-text.category-link:hover {
-  color: #ffffffe0!important;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .max-w-center {
