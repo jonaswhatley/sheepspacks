@@ -4899,8 +4899,8 @@ figcaption {
   display: -ms-grid;
   display: grid;
   grid-auto-columns: 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 16px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
@@ -4951,7 +4951,7 @@ figcaption {
   justify-content: center;
   background-color: #111;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .bottom-part._2 {
@@ -5028,8 +5028,7 @@ figcaption {
 }
 
 .category-text.category-link:hover {
-  color: #fff;
-  text-decoration: underline;
+  color: #ffffffde!important;
 }
 
 .max-w-center {
