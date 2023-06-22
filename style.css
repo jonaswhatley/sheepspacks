@@ -4594,17 +4594,15 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-  -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
   background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), to(rgba(0, 0, 0, 0.15)));
-  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), rgba(0, 0, 0, 0.15));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), rgb(0 0 0 / 36%));
   opacity: 1;
+  width: 100%;
 }
 
 .project-card {
